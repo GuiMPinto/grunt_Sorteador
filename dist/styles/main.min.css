@@ -33,5 +33,15 @@ body main input {
   background-color: transparent;
   text-align: center;
   border-bottom: 8px solid white;
-  color: white;
+}
+body main .resultado {
+  padding: 16px;
+  margin-top: 120px;
+  border: 8px dotted white;
+  display: none;
+}
+body main .resultado span {
+  font-weight: bold;
+  font-size: 3em;
+  display: block;
 }
